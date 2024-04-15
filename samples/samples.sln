@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppWeb.BlazorServer.FluentUI.HolisticWare.Ph4ct3x", "AppWeb.BlazorServer.FluentUI.HolisticWare.Ph4ct3x\AppWeb.BlazorServer.FluentUI.HolisticWare.Ph4ct3x.csproj", "{4069B3A0-65C9-4CB7-A6A1-9A7898CEBAAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppWeb.YARP.ReverseProxy", "AppWeb.YARP.ReverseProxy\AppWeb.YARP.ReverseProxy.csproj", "{6F98A8D1-F1B5-462A-901F-736D11999D06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppWeb.BlazorServer.FluentUI.HolisticWare", "AppWeb.BlazorServer.FluentUI.HolisticWare\AppWeb.BlazorServer.FluentUI.HolisticWare.csproj", "{A8850128-A5BA-42C8-B325-D42227DD1302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppAspire", "AppAspire", "{2C34000D-D6A2-4D29-B728-77B6B6C65E84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppAspire.ServiceDefaults", "AppAspire\AppAspire.ServiceDefaults\AppAspire.ServiceDefaults.csproj", "{0A3935DD-6CA9-4C9A-9A16-0AE2AC11014F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppAspire.AppHost", "AppAspire\AppAspire.AppHost\AppAspire.AppHost.csproj", "{4DF237A4-98B0-4BE4-B721-8ED3D432415A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4069B3A0-65C9-4CB7-A6A1-9A7898CEBAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4069B3A0-65C9-4CB7-A6A1-9A7898CEBAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4069B3A0-65C9-4CB7-A6A1-9A7898CEBAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4069B3A0-65C9-4CB7-A6A1-9A7898CEBAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F98A8D1-F1B5-462A-901F-736D11999D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F98A8D1-F1B5-462A-901F-736D11999D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F98A8D1-F1B5-462A-901F-736D11999D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F98A8D1-F1B5-462A-901F-736D11999D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8850128-A5BA-42C8-B325-D42227DD1302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8850128-A5BA-42C8-B325-D42227DD1302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8850128-A5BA-42C8-B325-D42227DD1302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8850128-A5BA-42C8-B325-D42227DD1302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3935DD-6CA9-4C9A-9A16-0AE2AC11014F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3935DD-6CA9-4C9A-9A16-0AE2AC11014F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3935DD-6CA9-4C9A-9A16-0AE2AC11014F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3935DD-6CA9-4C9A-9A16-0AE2AC11014F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF237A4-98B0-4BE4-B721-8ED3D432415A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF237A4-98B0-4BE4-B721-8ED3D432415A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF237A4-98B0-4BE4-B721-8ED3D432415A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF237A4-98B0-4BE4-B721-8ED3D432415A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A3935DD-6CA9-4C9A-9A16-0AE2AC11014F} = {2C34000D-D6A2-4D29-B728-77B6B6C65E84}
+		{4DF237A4-98B0-4BE4-B721-8ED3D432415A} = {2C34000D-D6A2-4D29-B728-77B6B6C65E84}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55E4072D-DCAE-4037-BC5A-476CB6757427}
+	EndGlobalSection
+EndGlobal

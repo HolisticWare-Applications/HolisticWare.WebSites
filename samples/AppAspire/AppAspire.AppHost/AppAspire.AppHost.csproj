@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting" Version="8.0.0-preview.5.24201.12" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0-preview.5.24201.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--
+      ReferenceOutputAssembly="false"
+      PrivateAssets="all"
+    -->
+    <ProjectReference 
+      Include="..\..\AppWeb.BlazorServer.FluentUI.HolisticWare.Ph4ct3x\AppWeb.BlazorServer.FluentUI.HolisticWare.Ph4ct3x.csproj"
+      >
+    </ProjectReference>
+    <ProjectReference 
+      Include="..\..\AppWeb.BlazorServer.FluentUI.HolisticWare\AppWeb.BlazorServer.FluentUI.HolisticWare.csproj"
+      >
+    </ProjectReference>
+    <ProjectReference
+      Include="..\..\AppWeb.YARP.ReverseProxy\AppWeb.YARP.ReverseProxy.csproj"
+      >
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>
